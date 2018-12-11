@@ -3,25 +3,35 @@
 
 <head>
   <title>Kodeana's Cupcakes | Home</title>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  <meta name="view port" content="width=deivce-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  <meta name="view port" content="width=deivce-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-a wesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" href="images/cakeicon.png">
+
   <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script></head>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
 
 <body>
 
 <!--HEADER-->
-  <div class="jumbotron">
-  <h1>Kodeana's Cupcakes <img src="images/cakelogo.png"> </h1>
-  <a href="#checkout" class="btn btn-default btn-sm">
-         <span class="glyphicon glyphicon-shopping-cart"></span> View basket
-       </a>
-  </a>
+  <div class="jumbotron" id="header1">
+    <form class="navbar-form navbar-right" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search our site!">
+      </div>
+      <button type="submit" class="btn btn-default">
+      <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </form>
+      <a href="index.html" class="ttle"> <h1>Kodeana's Cupcakes</h1></a>
+    </div>
+  </div>
   </div>
 
 
@@ -29,21 +39,13 @@
 <!--Navigation Bar-->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+    <ul class="nav nav-justified">
+      <li class="active"><a href="index.html">Home</a></li>
       <li><a href="our-cakes.asp">Our Cakes</a></li>
       <li><a href="recipes">Recipes</a></li>
       <li><a href="about-us.html">About Us</a></li>
+      <li><a href="checkout.html">View Basket <span class="glyphicon glyphicon-shopping-cart"></span></a></li>
     </ul>
-    <form class="navbar-form navbar-right" action="/action_page.php">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search our site!">
-      </div>
-      <button type="submit" class="btn btn-default">
-        <i class="glyphicon glyphicon-search"></i>
-      </button>
-    </form>
-
   </div>
 </nav>
 
@@ -53,7 +55,7 @@ lol-->
 <div class="container">
   <div class="page-header">
     <h2>Welcome to Kodeana's Cupcakes!</h2>
-    <p> bla bla bla </p>
+    <p>Got a sweet tooth? Kodena's cakes will meet your needs. Browse our products and indulge yourself in the best cupcakes in London!</p>
   </div>
 
 </div>
@@ -114,33 +116,33 @@ lol-->
 
 
 <!--FOOTER-->
+<div class="ftr">
+
+
 <div class="container-fluid">
+
 <footer>
 <div class="row">
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <h4>Connect with us</h4>
-    <a href="#" class="fa fa-facebook"></a>
+    <a href="https://facebook.com/kodeanacupcakes" class="fa fa-facebook"></a>
     <a href="#" class="fa fa-instagram"></a>
     <a href="https://instagram.com/kodeanacupcakes" class="fa fa-pinterest"></a>
   </div>
-  <div class="col-sm-4">
-    <p>Created by Mimi, Helen & Camila <br>
-      © 2018</p>
-  </div>
-  <div class="col-sm-4">
+
+
+  <div class="col-sm-6">
     <h4>Contact us</h4>
     <p>kodeanascupcakes@outlook.com<br>
       26 Elmfield Road, Bromley, BR1 1WA <br>
       01234 567 890
     </p>
-    <p>
   </div>
 </div>
+<small>Created by Mimi, Helen & Camila <br>
+  © 2018</small>
 </div>
 </footer>
-
-
-
-</body>
+</div>
 
 </html>

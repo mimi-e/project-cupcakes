@@ -1,4 +1,76 @@
 
+body {
+  background-color: #F7F4F5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: inherit;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+}
+
+.nav-justified>li>a {
+  color: #C40F4B;
+}
+
+
+a {
+  color: #FDD0C8;
+}
+
+a:link {
+  text-decoration: none;
+  color: ##FDD0C8;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.navbar {
+  color: #C40F4B
+}
+
+.jumbotron {
+  background-color: #C40F4B;
+  color: white;
+}
+
+
+
+/* search bar */
+.navbar-form {
+  position: fixed;
+  top: 0px;
+  right: 5px;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.page-header p {
+  font-size: 20px;
+}
+
+/* CAROUSEL */
+.carousel-inner > .item > img {
+  width: 100%;
+  height: 100%;
+}
+
 /* SOCIAL MEDIA BUTTONS */
 .fa {
   padding: 20px;
@@ -7,9 +79,19 @@
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  background: white;
-  color: #C92E5A;
+  background: #C40F4B;
+  color: white;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  background: #C40F4B;
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+  }
+
+  .ftr {
+    text-align: center;
+    color: white;
+    background: #C40F4B
+  }
