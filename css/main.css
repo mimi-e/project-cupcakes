@@ -1,1 +1,15 @@
-p {color: #fff }
+
+/* SOCIAL MEDIA BUTTONS */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: white;
+  color: #C92E5A;
+}
+
+.fa:hover {
+    opacity: 0.7;
